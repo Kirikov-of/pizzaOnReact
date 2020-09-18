@@ -1,0 +1,162 @@
+.container-cart {
+  width: 850px;
+  margin: 0 auto;
+
+  &_header {
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 35px;
+      color: #000000;
+    }
+
+    p {
+      padding-top: 5px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px;
+      color: #c4c4c4;
+      cursor: pointer;
+
+      svg {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &_content {
+    min-height: 340px;
+
+    img {
+      height: 80px;
+      width: 80px;
+    }
+  }
+
+  &_pizza {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+
+    h3 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+    }
+
+    .number {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    svg {
+      margin: 15px;
+      cursor: pointer;
+    }
+
+    p {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 26px;
+      color: #000000;
+
+      svg {
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .price {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 23px;
+      color: #000000;
+    }
+  }
+
+  &_sum {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .all-pizza {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 26px;
+      color: #000000;
+
+      span {
+        font-weight: bold;
+      }
+    }
+    .all-sum {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 26px;
+      color: #000000;
+
+      span {
+        color: #fe5f1e;
+      }
+    }
+  }
+
+  &_button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+    .back {
+      width: 200px;
+      height: 60px;
+      background: #fafafa;
+      border: 1px solid #bababa;
+      box-sizing: border-box;
+      border-radius: 50px;
+      cursor: pointer;
+
+      svg {
+        margin-right: 5px;
+      }
+
+      a {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #c2c2c2;
+      }
+    }
+
+    .next {
+      background: #fe5f1e;
+      border-radius: 50px;
+      width: 200px;
+      height: 60px;
+      cursor: pointer;
+      border: 0;
+
+      a {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #f1f1f1;
+        text-decoration: none;
+      }
+    }
+  }
+}

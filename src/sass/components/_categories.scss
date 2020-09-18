@@ -1,0 +1,33 @@
+.categories {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+    .active {
+      background: #282828;
+      color: #f1f1f1;
+    }
+
+    &:first-child {
+      margin-left: 48px;
+    }
+
+    & li {
+      min-width: 35px;
+      margin-right: 25px;
+      font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+      padding: 13px 30px;
+      background-color: #f5f5f5;
+      border-radius: 50px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #282828;
+        color: #f5f5f5;
+      }
+    }
+  }
+}

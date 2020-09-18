@@ -1,0 +1,44 @@
+.header {
+  padding: 42px 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &_logo {
+    display: flex;
+
+    img {
+      height: 48;
+      width: 48px;
+      margin-left: 48px;
+    }
+
+    h1 {
+      margin-left: 10px;
+      font-size: 22px;
+      color: #000000;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    p {
+      margin-left: 10px;
+      color: #a7a7a7;
+    }
+  }
+
+  &_cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      font-size: 18px;
+      color: #f1f1f1;
+      font-weight: bold;
+    }
+  }
+}
