@@ -30,7 +30,7 @@
   }
 
   &_content {
-    min-height: 340px;
+    min-height: 140px;
 
     img {
       height: 80px;
@@ -50,11 +50,17 @@
       font-size: 16px;
       line-height: 19px;
       color: #000000;
+      width: 225px;
     }
 
     .number {
       display: inline-flex;
       align-items: center;
+    }
+
+    button {
+      background: #fff;
+      border: 0;
     }
 
     svg {

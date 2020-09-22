@@ -22,11 +22,12 @@ body {
 
   &-cart {
     width: calc(100vw - 100px);
-    min-height: 800px;
+    min-height: 500px;
     background-color: #fff;
     margin: 50px auto;
     border-radius: 20px;
     max-width: 1400px;
+    padding-bottom: 40px;
 
     hr {
       width: 90%;
