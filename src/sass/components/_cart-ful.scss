@@ -23,6 +23,10 @@
       color: #c4c4c4;
       cursor: pointer;
 
+      &:hover {
+        color: #83868c;
+      }
+
       svg {
         margin-right: 5px;
       }
@@ -30,7 +34,7 @@
   }
 
   &_content {
-    min-height: 140px;
+    min-height: 80px;
 
     img {
       height: 80px;
@@ -56,11 +60,33 @@
     .number {
       display: inline-flex;
       align-items: center;
+      min-width: 146px;
+
+      svg:hover {
+        circle {
+          fill: #fe5f1e;
+        }
+
+        path {
+          stroke: white;
+        }
+      }
     }
 
     button {
       background: #fff;
       border: 0;
+
+      svg:hover {
+        circle {
+          fill: #1f1f1f;
+          stroke: #1f1f1f;
+        }
+
+        path {
+          stroke: white;
+        }
+      }
     }
 
     svg {
@@ -87,13 +113,14 @@
       font-size: 20px;
       line-height: 23px;
       color: #000000;
+      min-width: 77px;
     }
   }
 
   &_sum {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 30px;
 
     .all-pizza {
       font-style: normal;
@@ -122,7 +149,7 @@
   &_button {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 35px;
 
     .back {
       width: 200px;
@@ -132,6 +159,15 @@
       box-sizing: border-box;
       border-radius: 50px;
       cursor: pointer;
+
+      &:hover {
+        border: 1px solid #1f1f1f;
+        background: #1f1f1f;
+
+        a {
+          color: white;
+        }
+      }
 
       svg {
         margin-right: 5px;
@@ -154,6 +190,15 @@
       height: 60px;
       cursor: pointer;
       border: 0;
+
+      &:hover {
+        border: 2px solid #fe5f1e;
+        background: white;
+
+        a {
+          color: #fe5f1e;
+        }
+      }
 
       a {
         font-style: normal;

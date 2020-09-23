@@ -28,6 +28,15 @@
     border-radius: 50px;
     border: 0;
 
+    &:hover {
+      border: 2px solid #1f1f1f;
+      background: #ffffff;
+
+      span {
+        color: #1f1f1f;
+      }
+    }
+
     span {
       font-style: normal;
       font-weight: bold;
