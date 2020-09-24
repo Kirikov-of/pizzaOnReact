@@ -93,3 +93,17 @@ body {
     }
   }
 }
+
+svg {
+  &:active {
+    transition: background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out;
+    transform: translateY(1px);
+  }
+
+  path:active {
+    transition: background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out;
+    transform: translateY(1px);
+  }
+}

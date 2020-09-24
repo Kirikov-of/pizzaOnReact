@@ -52,3 +52,8 @@ button:active,
   outline: 0;
   outline-offset: 0;
 }
+
+button:active {
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  transform: translateY(1px);
+}
