@@ -6,7 +6,7 @@
 `Redux-thunk`
 `React-skeleton`
 `Axios`
-`Sass`
+`Scss`
 `json-server`
 
 ## Available Scripts
